@@ -1,0 +1,9 @@
+# perulangan for
+for i in range(0,5,1)
+  print("for loop, i=", 1)
+
+# Perulangan While
+1=0
+while (i <= 5):
+  print("while loop, i = ", i)
+  i += 1
