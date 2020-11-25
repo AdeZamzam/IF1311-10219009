@@ -1,0 +1,50 @@
+# oprasi aritmatika
+
+a = 10
+b = 3
+
+# oprasi tambahan +
+hasil = a + b 
+print(a,'+',b,'=',hasil)
+
+# oprasi tambahan -
+hasil = a - b 
+print(a,'-',b,'=',hasil)
+
+# oprasi tambahan *
+hasil = a * b 
+print(a,'*',b,'=',hasil)
+
+# oprasi tambahan /
+hasil = a / b 
+print(a,'/',b,'=',hasil)
+
+# oprasi tambahan **
+hasil = a ** b 
+print(a,'**',b,'=',hasil)
+
+# oprasi tambahan %
+hasil = a % b 
+print(a,'%',b,'=',hasil)
+
+# oprasi tambahan //
+hasil = a // b 
+print(a,'//',b,'=',hasil)
+
+# prioritas oprasi, oprational precedence
+''
+ # 1.()
+  #2. exponen **
+  #3. Perkalian dan teman teman * / % //
+  #4. pertambahan dan penguirangan + -
+''
+x = 3
+y = 2
+z = 4
+
+hasil = x + y * z
+print(x,'+',y,'*',z,'=', hasil)
+
+# kurung akan mengambil langkah paling pertama
+hasil = (x + y) * z
+print('(',x,'+',y,') *',z,'=', hasil)
